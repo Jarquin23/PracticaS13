@@ -31,28 +31,28 @@
             this.btnBusqLin = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.tbNumero = new System.Windows.Forms.TextBox();
             this.lbLineal = new System.Windows.Forms.ListBox();
-            this.tbNum = new System.Windows.Forms.TextBox();
-            this.lbBinaria = new System.Windows.Forms.ListBox();
+            this.tbNumero = new System.Windows.Forms.TextBox();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.btnBusqBin = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.listBox3 = new System.Windows.Forms.ListBox();
-            this.listBox4 = new System.Windows.Forms.ListBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.listBox5 = new System.Windows.Forms.ListBox();
-            this.listBox6 = new System.Windows.Forms.ListBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.button6 = new System.Windows.Forms.Button();
+            this.lbBinaria = new System.Windows.Forms.ListBox();
+            this.tbNum = new System.Windows.Forms.TextBox();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.lbPalabras = new System.Windows.Forms.ListBox();
+            this.tbParrafo = new System.Windows.Forms.TextBox();
+            this.tbPalabra = new System.Windows.Forms.TextBox();
+            this.btnBuscarP = new System.Windows.Forms.Button();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.tbObjeto = new System.Windows.Forms.TextBox();
+            this.btnBusqObj = new System.Windows.Forms.Button();
+            this.lbObjetos = new System.Windows.Forms.ListBox();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.lbNumeros = new System.Windows.Forms.ListBox();
+            this.btnEjecutar = new System.Windows.Forms.Button();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.btnCrear = new System.Windows.Forms.Button();
+            this.tbElementosM = new System.Windows.Forms.TextBox();
+            this.lbMatriz = new System.Windows.Forms.ListBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -99,6 +99,21 @@
             this.tabPage1.Text = "Búsqueda Lineal";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // lbLineal
+            // 
+            this.lbLineal.FormattingEnabled = true;
+            this.lbLineal.Location = new System.Drawing.Point(69, 87);
+            this.lbLineal.Name = "lbLineal";
+            this.lbLineal.Size = new System.Drawing.Size(120, 95);
+            this.lbLineal.TabIndex = 2;
+            // 
+            // tbNumero
+            // 
+            this.tbNumero.Location = new System.Drawing.Point(69, 27);
+            this.tbNumero.Name = "tbNumero";
+            this.tbNumero.Size = new System.Drawing.Size(100, 20);
+            this.tbNumero.TabIndex = 1;
+            // 
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.btnBusqBin);
@@ -112,88 +127,6 @@
             this.tabPage2.Text = "Búsqueda Binaria";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // tabPage3
-            // 
-            this.tabPage3.Controls.Add(this.listBox3);
-            this.tabPage3.Controls.Add(this.textBox4);
-            this.tabPage3.Controls.Add(this.textBox3);
-            this.tabPage3.Controls.Add(this.button3);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(554, 361);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Búsqueda de Palabra";
-            this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // tabPage4
-            // 
-            this.tabPage4.Controls.Add(this.textBox5);
-            this.tabPage4.Controls.Add(this.button4);
-            this.tabPage4.Controls.Add(this.listBox4);
-            this.tabPage4.Location = new System.Drawing.Point(4, 22);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(554, 361);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Búqueda de objetos";
-            this.tabPage4.UseVisualStyleBackColor = true;
-            // 
-            // tabPage5
-            // 
-            this.tabPage5.Controls.Add(this.listBox5);
-            this.tabPage5.Controls.Add(this.button5);
-            this.tabPage5.Location = new System.Drawing.Point(4, 22);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(554, 361);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "Máximo y mínimo";
-            this.tabPage5.UseVisualStyleBackColor = true;
-            // 
-            // tabPage6
-            // 
-            this.tabPage6.Controls.Add(this.button6);
-            this.tabPage6.Controls.Add(this.textBox6);
-            this.tabPage6.Controls.Add(this.listBox6);
-            this.tabPage6.Location = new System.Drawing.Point(4, 22);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(554, 361);
-            this.tabPage6.TabIndex = 5;
-            this.tabPage6.Text = "Matriz 2D";
-            this.tabPage6.UseVisualStyleBackColor = true;
-            // 
-            // tbNumero
-            // 
-            this.tbNumero.Location = new System.Drawing.Point(69, 27);
-            this.tbNumero.Name = "tbNumero";
-            this.tbNumero.Size = new System.Drawing.Size(100, 20);
-            this.tbNumero.TabIndex = 1;
-            // 
-            // lbLineal
-            // 
-            this.lbLineal.FormattingEnabled = true;
-            this.lbLineal.Location = new System.Drawing.Point(69, 87);
-            this.lbLineal.Name = "lbLineal";
-            this.lbLineal.Size = new System.Drawing.Size(120, 95);
-            this.lbLineal.TabIndex = 2;
-            // 
-            // tbNum
-            // 
-            this.tbNum.Location = new System.Drawing.Point(169, 29);
-            this.tbNum.Name = "tbNum";
-            this.tbNum.Size = new System.Drawing.Size(100, 20);
-            this.tbNum.TabIndex = 0;
-            // 
-            // lbBinaria
-            // 
-            this.lbBinaria.FormattingEnabled = true;
-            this.lbBinaria.Location = new System.Drawing.Point(169, 109);
-            this.lbBinaria.Name = "lbBinaria";
-            this.lbBinaria.Size = new System.Drawing.Size(120, 95);
-            this.lbBinaria.TabIndex = 1;
-            // 
             // btnBusqBin
             // 
             this.btnBusqBin.Location = new System.Drawing.Point(344, 58);
@@ -204,101 +137,173 @@
             this.btnBusqBin.UseVisualStyleBackColor = true;
             this.btnBusqBin.Click += new System.EventHandler(this.btnBusqBin_Click);
             // 
-            // button3
+            // lbBinaria
             // 
-            this.button3.Location = new System.Drawing.Point(251, 92);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 0;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.lbBinaria.FormattingEnabled = true;
+            this.lbBinaria.Location = new System.Drawing.Point(169, 109);
+            this.lbBinaria.Name = "lbBinaria";
+            this.lbBinaria.Size = new System.Drawing.Size(120, 95);
+            this.lbBinaria.TabIndex = 1;
             // 
-            // textBox3
+            // tbNum
             // 
-            this.textBox3.Location = new System.Drawing.Point(82, 63);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 1;
+            this.tbNum.Location = new System.Drawing.Point(169, 29);
+            this.tbNum.Name = "tbNum";
+            this.tbNum.Size = new System.Drawing.Size(100, 20);
+            this.tbNum.TabIndex = 0;
             // 
-            // textBox4
+            // tabPage3
             // 
-            this.textBox4.Location = new System.Drawing.Point(115, 126);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 2;
+            this.tabPage3.Controls.Add(this.lbPalabras);
+            this.tabPage3.Controls.Add(this.tbParrafo);
+            this.tabPage3.Controls.Add(this.tbPalabra);
+            this.tabPage3.Controls.Add(this.btnBuscarP);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(554, 361);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Búsqueda de Palabra";
+            this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // listBox3
+            // lbPalabras
             // 
-            this.listBox3.FormattingEnabled = true;
-            this.listBox3.Location = new System.Drawing.Point(115, 190);
-            this.listBox3.Name = "listBox3";
-            this.listBox3.Size = new System.Drawing.Size(120, 95);
-            this.listBox3.TabIndex = 3;
+            this.lbPalabras.FormattingEnabled = true;
+            this.lbPalabras.Location = new System.Drawing.Point(115, 149);
+            this.lbPalabras.Name = "lbPalabras";
+            this.lbPalabras.Size = new System.Drawing.Size(166, 147);
+            this.lbPalabras.TabIndex = 3;
             // 
-            // listBox4
+            // tbParrafo
             // 
-            this.listBox4.FormattingEnabled = true;
-            this.listBox4.Location = new System.Drawing.Point(148, 44);
-            this.listBox4.Name = "listBox4";
-            this.listBox4.Size = new System.Drawing.Size(120, 95);
-            this.listBox4.TabIndex = 0;
+            this.tbParrafo.Location = new System.Drawing.Point(115, 92);
+            this.tbParrafo.Name = "tbParrafo";
+            this.tbParrafo.Size = new System.Drawing.Size(233, 20);
+            this.tbParrafo.TabIndex = 2;
             // 
-            // button4
+            // tbPalabra
             // 
-            this.button4.Location = new System.Drawing.Point(369, 75);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 1;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.tbPalabra.Location = new System.Drawing.Point(115, 41);
+            this.tbPalabra.Name = "tbPalabra";
+            this.tbPalabra.Size = new System.Drawing.Size(100, 20);
+            this.tbPalabra.TabIndex = 1;
             // 
-            // textBox5
+            // btnBuscarP
             // 
-            this.textBox5.Location = new System.Drawing.Point(179, 182);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 2;
+            this.btnBuscarP.Location = new System.Drawing.Point(389, 41);
+            this.btnBuscarP.Name = "btnBuscarP";
+            this.btnBuscarP.Size = new System.Drawing.Size(96, 44);
+            this.btnBuscarP.TabIndex = 0;
+            this.btnBuscarP.Text = "Buscar Palabra";
+            this.btnBuscarP.UseVisualStyleBackColor = true;
+            this.btnBuscarP.Click += new System.EventHandler(this.btnBuscarP_Click);
             // 
-            // button5
+            // tabPage4
             // 
-            this.button5.Location = new System.Drawing.Point(116, 98);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 0;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
+            this.tabPage4.Controls.Add(this.tbObjeto);
+            this.tabPage4.Controls.Add(this.btnBusqObj);
+            this.tabPage4.Controls.Add(this.lbObjetos);
+            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(554, 361);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Búqueda de objetos";
+            this.tabPage4.UseVisualStyleBackColor = true;
             // 
-            // listBox5
+            // tbObjeto
             // 
-            this.listBox5.FormattingEnabled = true;
-            this.listBox5.Location = new System.Drawing.Point(165, 164);
-            this.listBox5.Name = "listBox5";
-            this.listBox5.Size = new System.Drawing.Size(120, 95);
-            this.listBox5.TabIndex = 1;
+            this.tbObjeto.Location = new System.Drawing.Point(99, 65);
+            this.tbObjeto.Name = "tbObjeto";
+            this.tbObjeto.Size = new System.Drawing.Size(150, 20);
+            this.tbObjeto.TabIndex = 2;
+            this.tbObjeto.TextChanged += new System.EventHandler(this.tbObjeto_TextChanged);
             // 
-            // listBox6
+            // btnBusqObj
             // 
-            this.listBox6.FormattingEnabled = true;
-            this.listBox6.Location = new System.Drawing.Point(195, 135);
-            this.listBox6.Name = "listBox6";
-            this.listBox6.Size = new System.Drawing.Size(120, 95);
-            this.listBox6.TabIndex = 0;
+            this.btnBusqObj.Location = new System.Drawing.Point(336, 65);
+            this.btnBusqObj.Name = "btnBusqObj";
+            this.btnBusqObj.Size = new System.Drawing.Size(87, 64);
+            this.btnBusqObj.TabIndex = 1;
+            this.btnBusqObj.Text = "Buscar objeto";
+            this.btnBusqObj.UseVisualStyleBackColor = true;
+            this.btnBusqObj.Click += new System.EventHandler(this.btnBusqObj_Click);
             // 
-            // textBox6
+            // lbObjetos
             // 
-            this.textBox6.Location = new System.Drawing.Point(92, 110);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 20);
-            this.textBox6.TabIndex = 1;
+            this.lbObjetos.FormattingEnabled = true;
+            this.lbObjetos.Location = new System.Drawing.Point(99, 126);
+            this.lbObjetos.Name = "lbObjetos";
+            this.lbObjetos.Size = new System.Drawing.Size(175, 186);
+            this.lbObjetos.TabIndex = 0;
             // 
-            // button6
+            // tabPage5
             // 
-            this.button6.Location = new System.Drawing.Point(421, 106);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 2;
-            this.button6.Text = "button6";
-            this.button6.UseVisualStyleBackColor = true;
+            this.tabPage5.Controls.Add(this.lbNumeros);
+            this.tabPage5.Controls.Add(this.btnEjecutar);
+            this.tabPage5.Location = new System.Drawing.Point(4, 22);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage5.Size = new System.Drawing.Size(554, 361);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "Máximo y mínimo";
+            this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // lbNumeros
+            // 
+            this.lbNumeros.FormattingEnabled = true;
+            this.lbNumeros.Location = new System.Drawing.Point(116, 85);
+            this.lbNumeros.Name = "lbNumeros";
+            this.lbNumeros.Size = new System.Drawing.Size(178, 199);
+            this.lbNumeros.TabIndex = 1;
+            // 
+            // btnEjecutar
+            // 
+            this.btnEjecutar.Location = new System.Drawing.Point(335, 74);
+            this.btnEjecutar.Name = "btnEjecutar";
+            this.btnEjecutar.Size = new System.Drawing.Size(99, 66);
+            this.btnEjecutar.TabIndex = 0;
+            this.btnEjecutar.Text = "Ejecutar";
+            this.btnEjecutar.UseVisualStyleBackColor = true;
+            this.btnEjecutar.Click += new System.EventHandler(this.btnEjecutar_Click);
+            // 
+            // tabPage6
+            // 
+            this.tabPage6.Controls.Add(this.btnCrear);
+            this.tabPage6.Controls.Add(this.tbElementosM);
+            this.tabPage6.Controls.Add(this.lbMatriz);
+            this.tabPage6.Location = new System.Drawing.Point(4, 22);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage6.Size = new System.Drawing.Size(554, 361);
+            this.tabPage6.TabIndex = 5;
+            this.tabPage6.Text = "Matriz 2D";
+            this.tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // btnCrear
+            // 
+            this.btnCrear.Location = new System.Drawing.Point(375, 44);
+            this.btnCrear.Name = "btnCrear";
+            this.btnCrear.Size = new System.Drawing.Size(100, 66);
+            this.btnCrear.TabIndex = 2;
+            this.btnCrear.Text = "Crear";
+            this.btnCrear.UseVisualStyleBackColor = true;
+            this.btnCrear.Click += new System.EventHandler(this.btnCrear_Click);
+            // 
+            // tbElementosM
+            // 
+            this.tbElementosM.Location = new System.Drawing.Point(130, 44);
+            this.tbElementosM.Name = "tbElementosM";
+            this.tbElementosM.Size = new System.Drawing.Size(174, 20);
+            this.tbElementosM.TabIndex = 1;
+            // 
+            // lbMatriz
+            // 
+            this.lbMatriz.FormattingEnabled = true;
+            this.lbMatriz.Location = new System.Drawing.Point(130, 98);
+            this.lbMatriz.Name = "lbMatriz";
+            this.lbMatriz.Size = new System.Drawing.Size(199, 186);
+            this.lbMatriz.TabIndex = 0;
             // 
             // Form1
             // 
@@ -339,18 +344,18 @@
         private System.Windows.Forms.Button btnBusqBin;
         private System.Windows.Forms.ListBox lbBinaria;
         private System.Windows.Forms.TextBox tbNum;
-        private System.Windows.Forms.ListBox listBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.ListBox listBox4;
-        private System.Windows.Forms.ListBox listBox5;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.ListBox listBox6;
+        private System.Windows.Forms.ListBox lbPalabras;
+        private System.Windows.Forms.TextBox tbParrafo;
+        private System.Windows.Forms.TextBox tbPalabra;
+        private System.Windows.Forms.Button btnBuscarP;
+        private System.Windows.Forms.TextBox tbObjeto;
+        private System.Windows.Forms.Button btnBusqObj;
+        private System.Windows.Forms.ListBox lbObjetos;
+        private System.Windows.Forms.ListBox lbNumeros;
+        private System.Windows.Forms.Button btnEjecutar;
+        private System.Windows.Forms.Button btnCrear;
+        private System.Windows.Forms.TextBox tbElementosM;
+        private System.Windows.Forms.ListBox lbMatriz;
     }
 }
 
